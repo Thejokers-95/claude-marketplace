@@ -1,0 +1,17 @@
+SEO/GEO Dashboard
+Copyright (c) 2026 Fred Kinzi / Node6.ai
+Licensed under MIT.
+
+Third-party attributions:
+
+1. AgriciDaniel/claude-seo (https://github.com/AgriciDaniel/claude-seo)
+   Licensed under MIT, Copyright (c) Agrici Daniel.
+   Skill prompts in `skills/recos-generator/` and `skills/llm-traffic-detection/`
+   are inspired by (not copied from) the AgriciDaniel/claude-seo project.
+   Original SEO/GEO analysis framework concepts informed the structure of our
+   recommendations generator and GEO traffic detection skills.
+
+2. MCPs used at runtime by the plugin (installed separately by end users):
+   - mcp-search-console (AminForou, MIT)
+   - google-analytics-mcp (Google, Apache-2.0)
+   - WordPress MCP Adapter (official WordPress, GPL)

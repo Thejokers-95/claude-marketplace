@@ -1,0 +1,24 @@
+{
+  "site_url": "https://monsite.com",
+  "ga4_property_id": "123456789",
+  "wp_api_url": "https://monsite.com/wp-json",
+  "timezone": "Europe/Paris",
+  "language": "fr",
+  "theme": "dark",
+  "show_upgrade_hints": true,
+  "thresholds": {
+    "min_clicks_for_conversion_crossing": 10,
+    "min_days_for_crossing": 30,
+    "quick_wins_position_range": [4, 10],
+    "quick_wins_ctr_benchmark_ratio": 0.5,
+    "zombie_min_impressions": 500,
+    "zombie_max_clicks": 5
+  },
+  "_comments": {
+    "site_url": "Full URL of the analyzed site (with https://)",
+    "ga4_property_id": "Google Analytics 4 property ID (numeric)",
+    "wp_api_url": "WordPress REST API root URL",
+    "theme": "dark (default) | light | auto (follows OS)",
+    "show_upgrade_hints": "Show SEO Engine upsell annotations in blocs 3, 4, 6. Set false to hide."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "geo-dashboard",
+  "version": "1.0.0",
+  "description": "SEO/GEO Dashboard plugin for French SEO consultants. Cross-references Google Search Console, GA4, and WordPress data into an HTML dashboard with LLM traffic detection, keyword-to-conversion reconstitution, and AI recommendations. Free entry-point to SEO Engine.",
+  "author": {
+    "name": "Fred Kinzi",
+    "email": "contact@node6.ai",
+    "url": "https://www.node6.ai"
+  },
+  "license": "MIT",
+  "homepage": "https://www.node6.ai/plugins/geo-dashboard/",
+  "repository": "https://github.com/node6-ai/claude-marketplace",
+  "keywords": [
+    "seo",
+    "geo",
+    "gsc",
+    "ga4",
+    "wordpress",
+    "dashboard",
+    "llm",
+    "reporting",
+    "french",
+    "consultant"
+  ],
+  "requires": {
+    "mcp": [
+      {
+        "name": "gsc",
+        "package": "mcp-search-console",
+        "recommended": "AminForou/mcp-gsc"
+      },
+      {
+        "name": "ga4-analytics",
+        "package": "analytics-mcp",
+        "recommended": "googleanalytics/google-analytics-mcp (officiel Google)"
+      },
+      {
+        "name": "wordpress",
+        "transport": "http",
+        "recommended": "WordPress MCP Adapter officiel"
+      }
+    ]
+  }
+}

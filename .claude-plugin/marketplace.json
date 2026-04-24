@@ -1,0 +1,28 @@
+{
+  "name": "node6-marketplace",
+  "owner": {
+    "name": "Node6.ai",
+    "email": "contact@node6.ai",
+    "url": "https://www.node6.ai"
+  },
+  "description": "Official Node6 Claude Code plugins marketplace. Modular AI Business Operating Systems for agencies, consultants, and teams. Free lead magnets and premium plugins across SEO/GEO, HR, product management, and more verticals.",
+  "plugins": [
+    {
+      "name": "geo-dashboard",
+      "source": "./plugins/geo-dashboard",
+      "description": "Dashboard SEO et GEO auto-genere, croise GSC, GA4 et WordPress. 6 blocs data et recos IA. Etage 0 de SEO Engine.",
+      "category": "marketing-seo",
+      "keywords": [
+        "seo",
+        "geo",
+        "gsc",
+        "ga4",
+        "wordpress",
+        "dashboard",
+        "llm"
+      ],
+      "homepage": "https://www.node6.ai/plugins/geo-dashboard/",
+      "version": "1.0.0"
+    }
+  ]
+}

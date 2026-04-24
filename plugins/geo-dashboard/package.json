@@ -1,0 +1,14 @@
+{
+  "name": "geo-dashboard-scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scripts and tests for the geo-dashboard plugin (not published to npm)",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
