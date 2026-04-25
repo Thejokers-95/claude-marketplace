@@ -143,7 +143,6 @@ Node6 builds AI Business Operating Systems for the consulting and agency economy
 
 - Website: https://www.node6.ai
 - Founder: Fred Kinzi
-- brAIn ecosystem ambassador (FR AI agencies)
 
 ---
 
